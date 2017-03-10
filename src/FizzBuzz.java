@@ -8,17 +8,18 @@ public class FizzBuzz {
 
 			if((i%3)==0 && (i%5)==0){
 				System.out.println("FizzBuzz");
+
 			}
-			else if((i%3)==0){
+			else if((i %3 ) == 0){
 				System.out.println("Fizz");
-				continue;
+
 			}
 			else if((i%5)==0){
 				System.out.println("Buzz");
-				continue;
-			}
-			System.out.println(i);
 
+			}else {
+				System.out.println(i);
+			}
 		}
 
 	}
